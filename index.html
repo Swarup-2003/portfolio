@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Swarupananda - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(65, 65, 137);
+      }
+
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+
+      nav ul li {
+        list-style: none;
+        margin: 0 20px;
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+
+      nav ul li a:hover {
+        color: rgb(213, 154, 76);
+        font-size: 1.05rem;
+      }
+      .left {
+        font-size: 1.5rem;
+      }
+
+      .firstSection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 40px 0;
+      }
+
+      .firstSection > div {
+        width: 40%;
+      }
+
+      .leftSection {
+        font-size: 2.5rem;
+        margin-left: 40px;
+      }
+
+      .rightSection img {
+        width: 80%;
+      }
+
+      .purple {
+        color: rgb(151, 119, 182);
+      }
+
+      #element {
+        color: rgb(151, 119, 182);
+      }
+
+      main hr {
+        border: 0px;
+        background: #9c97f1;
+        height: 1px;
+        margin: 40px 80px;
+      }
+
+      .secondSection {
+        max-width: 80vw;
+        margin: auto;
+        height: 300px;
+      }
+
+      .secondSection h1 {
+        font-size: 1.1rem;
+      }
+
+      .secondSection .box {
+        background: white;
+        width: 80vw;
+        height: 2px;
+        margin: 50px 0;
+        display: flex;
+        align-items: center;
+      }
+
+      .secondSection .vertical {
+        height: 45px;
+        width: 1px;
+        background-color: white;
+        margin: 0 200px;
+      }
+
+      .image-top {
+        position: relative;
+        width: 39px;
+        top: -41px;
+        left: -14px;
+      }
+
+      .secondSection .vertical .vertical-title {
+        width: 150px;
+        font-size: 0.9rem;
+        position: relative;
+        left: -2px;
+        top: 2px;
+      }
+
+      .secondSection .vertical .vertical-title a {
+        text-decoration: none;
+        color: white;
+      }
+
+      .secondSection .vertical .vertical-title a:hover {
+        color: rgb(227, 205, 177);
+        font-size: 1.05rem;
+      }
+      .secondSection .vertical .vertical-desc {
+        font-size: 10px;
+        color: gray;
+        position: relative;
+        top: 2px;
+        left: -2px;
+        width: 150px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Swarupananda's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <!-- <li><a href="services.html">Services</a></li> -->
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi , My name is <span class="purple">Swarupananda</span>
+          <div>and I am a passionate</div>
+          <!-- <div>Web Developer</div> -->
+          <span id="element"></span>
+        </div>
+        <div class="rightSection">
+          <img src="bg.png" alt="backgroundPhoto" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondSection">
+        <h1>Work Experience</h1>
+
+        <div class="box">
+          <div class="vertical" style="position: relative; left: -30px">
+            <img src="dev.png" alt="dev" class="image-top" />
+            <div class="vertical-title">
+              <a href="frontend.html"><h5>Front-End Developer (2021 - )</h5></a>
+            </div>
+            <div class="vertical-desc">Lorem ipsum</div>
+          </div>
+
+          <div class="vertical" style="position: relative; left: -40px">
+            <img
+              src="android.png"
+              alt="dev"
+              class="image-top"
+              style="position: relative; left: -17px; width: 35px"
+            />
+            <div class="vertical-title">
+              <a href="android.html"
+                ><h5>Android Developer <br />(2021 - )</h5></a
+              >
+            </div>
+            <div class="vertical-desc">Lorem ipsum</div>
+          </div>
+
+          <div class="vertical" style="position: relative; left: -30px">
+            <img
+              src="design .png"
+              alt="dev"
+              class="image-top"
+              style="position: relative; left: -16px; width: 35px"
+            />
+            <div class="vertical-title">
+              <a href="graphics.html"
+                ><h5>
+                  Graphics Designer <br />
+                  (2021 - )
+                </h5></a
+              >
+            </div>
+            <div class="vertical-desc">Lorem ipsum</div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer ", "Graphic Designer", "App Developer"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>

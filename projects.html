@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(65, 65, 137);
+      }
+
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+
+      nav ul li {
+        list-style: none;
+        margin: 0 20px;
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+
+      nav ul li a:hover {
+        color: rgb(213, 154, 76);
+        font-size: 1.05rem;
+      }
+      .left {
+        font-size: 1.5rem;
+      }
+
+      .secondSection {
+        position: relative;
+        top: 87px;
+        max-width: 80vw;
+        margin: auto;
+        height: 300px;
+      }
+
+      .secondSection h1 {
+        font-size: 1.1rem;
+      }
+
+      .secondSection .box {
+        background: white;
+        width: 5px;
+        height: 339px;
+        margin: 50px 0;
+        display: flex;
+        align-items: center;
+        position: relative;
+        left: 26px;
+      }
+
+      .secondSection .vertical {
+        height: 45px;
+        width: 1px;
+        /* background-color: white; */
+        margin: 0 200px;
+      }
+
+      .image-top {
+        position: relative;
+        width: 39px;
+        top: -41px;
+        left: -14px;
+      }
+
+      .secondSection .vertical .vertical-title1 {
+        width: 150px;
+        font-size: 0.9rem;
+        position: relative;
+        left: 47px;
+        top: -87px;
+      }
+
+      .secondSection .vertical .vertical-title2 {
+        width: 150px;
+        font-size: 0.9rem;
+        position: relative;
+        left: -428px;
+        top: -87px;
+      }
+
+      .secondSection .vertical .vertical-title3 {
+        width: 150px;
+        font-size: 0.9rem;
+        position: relative;
+        left: -838px;
+        top: -2px;
+      }
+
+      .secondSection .vertical .vertical-title1 a {
+        text-decoration: none;
+        color: white;
+      }
+
+      .secondSection .vertical .vertical-title1 a:hover {
+        color: rgb(227, 205, 177);
+        font-size: 1.05rem;
+      }
+      .secondSection .vertical .vertical-desc1 {
+        font-size: 10px;
+        color: gray;
+        position: relative;
+        top: -73px;
+        left: 45px;
+        width: 150px;
+      }
+
+      .secondSection .vertical .vertical-desc2 {
+        font-size: 10px;
+        color: gray;
+        position: relative;
+        top: -82px;
+        left: -431px;
+        width: 113px;
+      }
+
+      .secondSection .vertical .vertical-desc3 {
+        font-size: 10px;
+        color: gray;
+        position: relative;
+        top: 4px;
+        left: -840px;
+        width: 150px;
+      }
+      .secondSection .vertical .vertical-title2 a {
+        text-decoration: none;
+        color: white;
+      }
+
+      .secondSection .vertical .vertical-title2 a:hover {
+        color: rgb(227, 205, 177);
+        font-size: 1.05rem;
+      }
+      .secondSection .vertical .vertical-title3 a {
+        text-decoration: none;
+        color: white;
+      }
+
+      .secondSection .vertical .vertical-title3 a:hover {
+        color: rgb(227, 205, 177);
+        font-size: 1.05rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Swarupananda's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <!-- <li><a href="services.html">Services</a></li> -->
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="secondSection">
+        <h1>Projects</h1>
+        <div class="box">
+          <div
+            class="vertical"
+            style="position: relative; top: -94px; left: -114px"
+          >
+            <img src="dev.png" alt="dev" class="image-top" />
+            <div class="vertical-title1">
+              <a href="frontend.html"><h5>Front-End Developer (2021 - )</h5></a>
+            </div>
+            <div class="vertical-desc1">Lorem ipsum</div>
+          </div>
+
+          <div class="vertical" style="position: relative; left: -40px">
+            <img
+              src="android.png"
+              alt="dev"
+              class="image-top"
+              style="position: relative; left: -486px; width: 35px"
+            />
+            <!-- <img src="android.png" alt="dev" class="image-top" style="position: relative; left: -17px; width: 35px"> -->
+            <div class="vertical-title2">
+              <a href="android.html"
+                ><h5>Android Developer <br />(2021 - )</h5></a
+              >
+            </div>
+            <div class="vertical-desc2">Lorem ipsum</div>
+          </div>
+
+          <div class="vertical" style="position: relative; left: -30px">
+            <img
+              src="design .png"
+              alt="dev"
+              class="image-top"
+              style="position: relative; left: -898px; top: 38px; width: 35px"
+            />
+            <!-- <img src="design .png" alt="dev" class="image-top" style="position: relative; left: -16px; width: 35px"> -->
+            <div class="vertical-title3">
+              <a href="graphics.html"
+                ><h5>
+                  Graphics Designer <br />
+                  (2021 - )
+                </h5></a
+              >
+            </div>
+            <div class="vertical-desc3">Lorem ipsum</div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

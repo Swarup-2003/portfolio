@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="contact_style.css">
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+         * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        background: #c8e8e9;
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(65, 65, 137);
+      }
+
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+
+      nav ul li {
+        list-style: none;
+        margin: 0 20px;
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+
+      nav ul li a:hover {
+        color: rgb(213, 154, 76);
+        font-size: 1.05rem;
+      }
+      .left {
+        font-size: 1.5rem;
+      }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+          <div class="left">Swarupananda's Portfolio</div>
+          <div class="right">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <!-- <li><a href="services.html">Services</a></li> -->
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <main>
+        <div class="container">
+          <div class="content">
+            <div class="left-side">
+              <div class="address details">
+                <i class="fas fa-map-marker-alt"></i>
+                <div class="topic">Address</div>
+                <div class="text-one">Haur</div>
+                <div class="text-two">Purba Medinipur <br> 721131</div>
+              </div>
+              <div class="phone details">
+                <i class="fas fa-phone-alt"></i>
+                <div class="topic">Phone</div>
+                <div class="text-one">+91 9832743430</div>
+                <!-- <div class="text-two">+0096 3434 5678</div> -->
+              </div>
+              <div class="email details">
+                <i class="fas fa-envelope"></i>
+                <div class="topic">Email</div>
+                <div class="text-one">chattopadhyayswarupananda@gmail.com</div>
+                <div class="text-two">cswarup991@gmail.com</div>
+              </div>
+            </div>
+            <div class="right-side">
+              <div class="topic-text">Send us a message</div>
+              <p style="color: black;">If you have any quries related to my work, you can send me message. It's my pleasure to help you.</p>
+            <form action="#">
+              <div class="input-box">
+                <input type="text" placeholder="Enter your name">
+              </div>
+              <div class="input-box">
+                <input type="email" placeholder="Enter your email">
+              </div>
+              <div class="input-box message-box">
+                <input type="text" placeholder="Enter your Message">
+
+              </div>
+              <a href="mailto:cswarup991@gmail.com">
+                <div class="button">
+                 <input type="button" value="Send Now" >
+               </div>
+              </a>
+            </form>
+          </div>
+          </div>
+        </div>
+      </main>
+</body>
+</html>
